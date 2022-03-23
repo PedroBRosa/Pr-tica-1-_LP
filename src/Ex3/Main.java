@@ -8,7 +8,7 @@ public class Main {
         String frase;
         int i = 0;
         System.out.println("Escreva sua frase: ");
-        frase = ler.next();
+        frase = ler.nextLine();
         String fraseFormat = frase.toUpperCase();
         if (fraseFormat.indexOf("A")!=-1) i = i + 1;
         if (fraseFormat.indexOf("E")!=-1) i = i + 1;
